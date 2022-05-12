@@ -28,7 +28,31 @@ main {
     width: 100vw;
     height: 80vh;
     border: 1px solid yellow;
+    overflow: auto;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    position: relative;
+    margin: 2px;
+}
+
+.card-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 
 /* FOOTER */
