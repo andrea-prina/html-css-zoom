@@ -1,0 +1,40 @@
+/* RESET & COMMONS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+/* HEADER */
+
+header {
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid palevioletred;
+
+}
+
+
+/* MAIN */
+
+main {
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid yellow;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid greenyellow;
+}
