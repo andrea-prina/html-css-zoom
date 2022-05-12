@@ -17,24 +17,36 @@ body {
 header {
     width: 100vw;
     height: 10vh;
-    border: 1px solid palevioletred;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 
+.head-btn {
+    background-color: rgb(87, 87, 87);
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
 
 /* MAIN */
 
 main {
     width: 100vw;
     height: 80vh;
-    border: 1px solid yellow;
     overflow: auto;
 }
 
 .container {
     width: 90%;
     margin: 0 auto;
-    border: 1px solid aquamarine;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -60,5 +72,37 @@ main {
 footer {
     width: 100vw;
     height: 10vh;
-    border: 1px solid greenyellow;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.foot-btn {
+    background-color: rgb(87, 87, 87);
+    color: red;
+    border: none;
+    height: 100%;
+    padding: 20px;
+}
+
+.footer-section{
+    display: flex;
+}
+
+.foot-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.f-icon {
+    font-size: 32px;
+}
+
+.icon-highlight {
+    color: greenyellow;
 }
